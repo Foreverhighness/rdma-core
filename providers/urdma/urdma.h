@@ -8,6 +8,7 @@
 
 struct urdma_device {
 	struct verbs_device verbs_dev;
+	void* driver_data;
 };
 
 struct urdma_context {
